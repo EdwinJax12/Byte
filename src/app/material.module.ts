@@ -11,13 +11,11 @@ import {
     MatIconModule,
     MatSnackBarModule,
     MatTooltipModule,
+    MatToolbarModule,
     MatTableModule,
     MatProgressSpinnerModule,
-    MatStepperModule
-
-
-
-
+    MatStepperModule,
+    MatCheckboxModule,
 
 } from '@angular/material'
 
@@ -33,9 +31,12 @@ import {
         MatIconModule,
         MatSnackBarModule,
         MatTooltipModule,
+        MatToolbarModule,
         MatTableModule,
         MatProgressSpinnerModule,
-        MatStepperModule
+        MatStepperModule,
+        MatCheckboxModule,
+     
     ],
     exports:[
         MatButtonModule,
@@ -47,10 +48,13 @@ import {
         MatListModule,
         MatIconModule,
         MatSnackBarModule,
+        MatToolbarModule,
         MatTooltipModule,
         MatTableModule,
         MatProgressSpinnerModule,
-        MatStepperModule
+        MatStepperModule,
+        MatCheckboxModule,
+        
     ]
 })
 
